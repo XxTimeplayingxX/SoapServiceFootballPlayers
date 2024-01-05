@@ -29,5 +29,25 @@ namespace SoapServiceFootballPlayers
         {
             return FootballManager.GetAllPlayers();
         }
+        [WebMethod]
+        public WorkersResponse SaveStudent(PlayerServiceRequest playerServiceRequest)
+        {
+            return FootballManager.SavePlayers(playerServiceRequest);
+        }
+        [WebMethod]
+        public WorkersResponse AddPlayer(PlayerServiceRequest playerServiceRequest)
+        {
+            return FootballManager.AddPlayer(playerServiceRequest);
+        }
+        [WebMethod]
+        public WorkersResponse UpdatePlayer(PlayerServiceRequest playerServiceRequest)
+        {
+            return FootballManager.UpdatePlayer(playerServiceRequest);
+        }
+        [WebMethod]
+        public WorkersResponse DeletePlayer(PlayerServiceRequest playerServiceRequest)
+        {
+            return FootballManager.DeletePlayer(playerServiceRequest);
+        }
     }
 }

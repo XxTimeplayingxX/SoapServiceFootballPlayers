@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Business Action\FootballManager.cs" />
     <Compile Include="Business Message\Person.cs" />
+    <Compile Include="Business Message\PlayerServiceRequest.cs" />
     <Compile Include="Business Message\WorkersResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebServiceFootballPlayers.asmx.cs">
